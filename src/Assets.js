@@ -42,7 +42,7 @@ const Assets = () => {
               class="img-fluid" width="200" alt="Komatsu logo"/>
           </div>
           <div class="col-4">
-            <h3>All Equipment</h3>
+            <h3>Crane Inspections</h3>
           </div>
           <div class="col-4">
            <p><b>Refreshed @ {now}</b></p>
