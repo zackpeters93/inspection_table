@@ -18,6 +18,7 @@ const Assets = () => {
   const now = new Date().toLocaleString();
 
 
+
   useEffect(() => {
     fetch(
       "https://api.airtable.com/v0/appw1xMIcf8ThrJcZ/Assets?api_key=keyio4TZZi6KLFjjU"
@@ -31,6 +32,7 @@ const Assets = () => {
         console.log(error);
       });
   }, []);
+
 
 
   return (
@@ -73,7 +75,8 @@ const Assets = () => {
                   <td>{record.fields.Department}</td>
                   <td>{record.fields.Description}</td>
                   <td>{record.fields.State}</td>
-                  <td>{record.fields.Last_Update}</td>
+                  <td>{record.fields.Date}, {record.fields.Time}</td>
+                  {/* <td>{record.fields.Last_Update.toLocaleString()}</td> */}
                   {/* <td>{record.fields.Frequency}</td>
                   <td>{record.fields.X_Coord}</td>
                   <td>{record.fields.Y_Coord}</td> */}
