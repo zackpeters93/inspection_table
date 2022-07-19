@@ -21,7 +21,7 @@ const Assets = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.airtable.com/v0/appw1xMIcf8ThrJcZ/Assets?api_key=keyio4TZZi6KLFjjU"
+      "https://api.airtable.com/v0/appw1xMIcf8ThrJcZ/Assets?view=888%20Only&api_key=keyio4TZZi6KLFjjU"
     )
       .then((res) => res.json())
       .then((data) => {
