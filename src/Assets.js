@@ -61,8 +61,8 @@ const Assets = () => {
                   <th scope="col">Description</th>
                   <th scope="col">Status</th>
                   <th scope="col">Last Update</th>
-                  {/* <th scope="col">Frequency</th>
-                  <th scope="col">X Coord</th>
+                  <th scope="col">Inspector</th>
+                   {/* <th scope="col">X Coord</th>
                   <th scope="col">Y Coord</th> */}
               </tr>
           </thead>
@@ -76,9 +76,8 @@ const Assets = () => {
                   <td>{record.fields.Description}</td>
                   <td>{record.fields.State}</td>
                   <td>{record.fields.Date}, {record.fields.Time}</td>
-                  {/* <td>{record.fields.Last_Update.toLocaleString()}</td> */}
-                  {/* <td>{record.fields.Frequency}</td>
-                  <td>{record.fields.X_Coord}</td>
+                  <td>{record.fields.Inspector}</td>
+                  {/* <td>{record.fields.X_Coord}</td>
                   <td>{record.fields.Y_Coord}</td> */}
               </tr>
                       ))     ): (
